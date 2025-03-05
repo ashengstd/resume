@@ -1,0 +1,113 @@
+\documentclass{resume}
+\usepackage{zh_CN-Adobefonts_external} 
+\usepackage{linespacing_fix}
+\usepackage{cite}
+\usepackage{hyperref}
+\usepackage{fontawesome}
+\begin{document}
+\pagenumbering{gobble}
+
+%***"%"后面的所有内容是注释而非代码，不会输出到最后的PDF中
+%***使用本模板，只需要参照输出的PDF，在本文档的相应位置做简单替换即可
+%***修改之后，输出更新后的PDF，只需要点击Overleaf中的“Recompile”按钮即可
+%**********************************姓名********************************************
+\name{任笙}
+%**********************************联系信息****************************************
+%第一个括号里写手机号，第二个写邮箱
+\contactInfo{16605242665}{rensheng0410@outlook.com}
+%**********************************其他信息****************************************
+%在大括号内填写其他信息，最多填写4个，但是如果选择不填信息，
+%那么大括号必须空着不写，而不能删除大括号。
+%\otherInfo后面的四个大括号里的所有信息都会在一行输出
+%如果想要写两行，那就用两次这个指令（\otherInfo{}{}{}{}）即可
+\otherInfo{性别：男}{籍贯：江苏}{}{}
+% 求职意向
+\otherInfo{求职意向：软件开发\;人工智能}{}{}{}
+\otherInfo{\faGithubAlt Github: \href{https://github.com/ashengstd}{https://github.com/ashengstd}}{}{}{}
+
+%*********************************照片**********************************************
+%照片需要放到images文件夹下，名字必须是you.jpg，如果不需要照片可以不添加此行命令
+%0.15的意思是，照片的宽度是页面宽度的0.15倍，调整大小，避免遮挡文字
+\yourphoto{0.12}
+%**********************************正文**********************************************
+
+
+%***大标题，下面有横线做分割
+%***一般的标题有：教育背景，实习（项目）经历，工作经历，自我评价，求职意向，等等
+\section{教育背景}
+
+
+%***********一行子标题**************
+%***第一个大括号里的内容向左对齐，第二个大括号里的内容向右对齐
+%***\textbf{}括号里的字是粗体，\textit{}括号里的字是斜体
+
+
+%***********列举*********************
+%***可添加多个\item，得到多个列举项，类似的也可以用\textbf{}、\textit{}做强调
+
+
+\datedsubsection{\textbf{南京航空航天大学}，\textit{本科}}{2021.09 - 2025.07}
+\begin{itemize} [parsep=1ex]
+  \item \textbf{人工智能}
+  \item \textbf{GPA 3.5/5.0}
+  \item \textbf{Python程序设计语言}:99 \textbf{C++ 程序设计}:93 \textbf{最优化方法}:78 \textbf{模式识别实验}:99 \textbf{自然语言处理}:91 \textbf{操作系统}:90 \textbf{人工智能综合课程设计}:93
+\end{itemize}
+
+\section{技术栈}
+\begin{itemize}[parsep=0.5ex]
+    \item Python, Pytorch
+    \item Linux/Shell
+    \item Git
+    \item Flutter
+  \end{itemize}
+
+
+\section{获奖经历}
+\begin{itemize}
+    \item 大一，大三学年优秀奖学金\{前20\%\}
+    \item CET-4 550\quad CET-6 488分
+    \item 2024 美国大学生数学建模比赛\{Sucesseful Mention\}
+\end{itemize}
+
+\section{项目经历}
+
+\datedsubsection{\textbf{非机动车逆向检测算法-大创}\{Python\}}{2023.5 - 2024.5}
+\begin{itemize}[parsep=0.5ex]
+  \item \textbf{国家级立项}
+  \item 参与项目的核心开发，主攻计算机视觉方向，结合角度检测算法和\textbf{mmyolo}实现了一个高效的目标检测和方向判断的pipeline。优化了数据处理流程，提升了模型的准确性和计算效率。
+\end{itemize}
+
+% \datedsubsection{\textbf{数据挖掘课设}\{Python\}}{2023.10 - 2023.12}
+% \begin{itemize}[parsep=0.5ex]
+%   \item 结合传统机器学习模型与\textbf{GBDT}（Gradient Boosting Decision Trees），设计并实现了一个针对长短期负类样本筛选的算法。该算法在提高数据预处理效率的同时，也有效提升了后续分类模型的预测准确率。 
+% \end{itemize}
+
+\datedsubsection{\textbf{Sqlite-Flutter-APP}\{Flutter\}}{2024.4 - 2024.6}
+\begin{itemize}[parsep=0.5ex]
+  \item 设计并实现了基于\textbf{Sqlite}和\textbf{Flutter}的移动端APP，成功集成了数据库与前端的无缝交互。实现了增删改查（CRUD）功能，使用户可以高效管理应用内的数据。
+\end{itemize}
+
+\datedsubsection{\textbf{MyGPT}\{Pytorch\}}{2024.9 - 2024.11}
+\begin{itemize}[parsep=0.5ex]
+  \item 基于自定义的\textbf{GPT}模型，设计并实现了一个高效的文本生成和对话模拟系统，能够在多个任务上进行高质量的生成任务。
+\end{itemize}
+
+% \datedsubsection{\textbf{YoloV5-Android-APP}\{Java\}}{2024.8 - 2024.9}
+% \begin{itemize}[parsep=0.5ex]
+%   \item 开发了一个移动端应用，实现了实时剪刀石头布游戏图像识别功能。该功能支持通过摄像头实时检测用户的手势，并进行自动判定。
+% \end{itemize}
+
+\datedsubsection{\textbf{云节点的资源调度-企业合作实习项目}\{Pytorch\}}{2024.7 - 2024.11}
+\begin{itemize}[parsep=0.5ex]
+  \item 基于\textbf{DROO}神经网络与线性规划的组合优化算法，设计并实现了一个高效的云服务资源调度系统。负责整个项目的核心算法实现，包括模型训练与调优，最终成功提升了资源调度的效率和系统的稳定性。 
+\end{itemize}
+
+\datedsubsection{\textbf{llm\_eval-大预言模型的推理性能测试CLI}\{Python\}}{2024.11 - 2025.1}
+\begin{itemize}[parsep=0.5ex]
+  \item 基于\textbf{LiteLLM}实现了一个CLI工具，用于测试大语言模型的推理性能，用\textbf{Github Action}实现了开发、测试、编译、分发的整套CI/CD，实现了对GSM、GSM-Symbolic、SimpleBench等多个数据集的支持，通过LiteLLM的API，实现了任意Provider的模型API调用，同时基于\textbf{mkdocs}实现了一个简单的\href{http://ashengstd.github.io/llm_evaluation_in_reasoning/}{Documentations}。
+\end{itemize}
+
+\section{自我评价}
+\quad\quad 热爱计算机技术，热爱学习，热爱开源精神，大学期间积极参加开源社区举办的活动和讲座。对新技术和新的计算机分支学科保有兴趣，关注计算机的相关科技知识和新闻。
+
+\end{document}
