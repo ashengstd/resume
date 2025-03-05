@@ -1,23 +1,23 @@
 ## Core latex/pdflatex auxiliary files:
 
-_.aux
-_.lof
-_.log
-_.lot
-_.fls
-_.out
-_.toc
-_.fmt
-_.fot
-_.cb
-_.cb2
-._.lb
+*.aux
+*.lof
+*.log
+*.lot
+*.fls
+*.out
+*.toc
+*.fmt
+*.fot
+*.cb
+*.cb2
+.*.lb
 
 ## Intermediate documents:
 
-_.dvi
-_.xdv
-_-converted-to._
+*.dvi
+*.xdv
+*-converted-to.*
 
 # these rules might exclude image files for figures etc.
 
@@ -33,23 +33,23 @@ _-converted-to._
 
 ## Bibliography auxiliary files (bibtex/biblatex/biber):
 
-_.bbl
-_.bbl-SAVE-ERROR
-_.bcf
-_.bcf-SAVE-ERROR
-_.blg
-_-blx.aux
-_-blx.bib
-_.run.xml
+*.bbl
+*.bbl-SAVE-ERROR
+*.bcf
+*.bcf-SAVE-ERROR
+*.blg
+*-blx.aux
+*-blx.bib
+*.run.xml
 
 ## Build tool auxiliary files:
 
-_.fdb_latexmk
-_.synctex
-_.synctex(busy)
-_.synctex.gz
-_.synctex.gz(busy)
-_.pdfsync
+*.fdb*latexmk
+*.synctex
+*.synctex(busy)
+*.synctex.gz
+*.synctex.gz(busy)
+*.pdfsync
 \*.rubbercache
 rubber.cache
 
@@ -63,8 +63,8 @@ latex.out/
 
 # algorithms
 
-_.alg
-_.loa
+*.alg
+*.loa
 
 # achemso
 
@@ -76,10 +76,10 @@ acs-\*.bib
 
 # beamer
 
-_.nav
-_.pre
-_.snm
-_.vrb
+*.nav
+*.pre
+*.snm
+*.vrb
 
 # changes
 
@@ -107,40 +107,40 @@ _.vrb
 
 # feynmf/feynmp
 
-_.mf
-_.mp
-_.t[1-9]
-_.t[1-9][0-9]
+*.mf
+*.mp
+*.t[1-9]
+*.t[1-9][0-9]
 \*.tfm
 
 #(r)(e)ledmac/(r)(e)ledpar
-_.end
-_.?end
-_.[1-9]
-_.[1-9][0-9]
-_.[1-9][0-9][0-9]
-_.[1-9]R
-_.[1-9][0-9]R
-_.[1-9][0-9][0-9]R
-_.eledsec[1-9]
-_.eledsec[1-9]R
-_.eledsec[1-9][0-9]
-_.eledsec[1-9][0-9]R
-_.eledsec[1-9][0-9][0-9]
-_.eledsec[1-9][0-9][0-9]R
+*.end
+*.?end
+*.[1-9]
+*.[1-9][0-9]
+*.[1-9][0-9][0-9]
+*.[1-9]R
+*.[1-9][0-9]R
+*.[1-9][0-9][0-9]R
+*.eledsec[1-9]
+*.eledsec[1-9]R
+*.eledsec[1-9][0-9]
+*.eledsec[1-9][0-9]R
+*.eledsec[1-9][0-9][0-9]
+*.eledsec[1-9][0-9][0-9]R
 
 # glossaries
 
-_.acn
-_.acr
-_.glg
-_.glo
-_.gls
-_.glsdefs
-_.lzo
-_.lzs
-_.slg
-_.slo
+*.acn
+*.acr
+*.glg
+*.glo
+*.gls
+*.glsdefs
+*.lzo
+*.lzs
+*.slg
+*.slo
 \*.sls
 
 # uncomment this for glossaries-extra (will ignore makeindex's style files!)
@@ -149,27 +149,27 @@ _.slo
 
 # gnuplot
 
-_.gnuplot
-_.table
+*.gnuplot
+*.table
 
 # gnuplottex
 
-_-gnuplottex-_
+*-gnuplottex-*
 
 # gregoriotex
 
-_.gaux
-_.glog
+*.gaux
+*.glog
 \*.gtex
 
 # htlatex
 
-_.4ct
-_.4tc
-_.idv
-_.lg
-_.trc
-_.xref
+*.4ct
+*.4tc
+*.idv
+*.lg
+*.trc
+*.xref
 
 # hypdoc
 
@@ -199,23 +199,23 @@ _.xref
 
 # makeidx
 
-_.idx
-_.ilg
+*.idx
+*.ilg
 \*.ind
 
 # minitoc
 
-_.maf
-_.mlf
-_.mlt
-_.mtc[0-9]\*
-_.slf[0-9]_
-_.slt[0-9]_
-_.stc[0-9]_
+*.maf
+*.mlf
+*.mlt
+*.mtc[0-9]\*
+*.slf[0-9]*
+*.slt[0-9]*
+*.stc[0-9]*
 
 # minted
 
-\_minted\*
+\*minted\*
 \*.pyg
 
 # morewrites
@@ -228,8 +228,8 @@ _.stc[0-9]_
 
 # nomencl
 
-_.nlg
-_.nlo
+*.nlg
+*.nlo
 \*.nls
 
 # pax
@@ -242,8 +242,8 @@ _.nlo
 
 # sagetex
 
-_.sagetex.sage
-_.sagetex.py
+*.sagetex.sage
+*.sagetex.py
 \*.sagetex.scmd
 
 # scrwfile
@@ -256,19 +256,19 @@ svg-inkscape/
 
 # sympy
 
-_.sout
-_.sympy
+*.sout
+*.sympy
 sympy-plots-for-\*.tex/
 
 # pdfcomment
 
-_.upa
-_.upb
+*.upa
+*.upb
 
 # pythontex
 
-_.pytxcode
-pythontex-files-_/
+*.pytxcode
+pythontex-files-*/
 
 # tcolorbox
 
@@ -280,8 +280,8 @@ pythontex-files-_/
 
 # TikZ & PGF
 
-_.dpth
-_.md5
+*.dpth
+*.md5
 \*.auxlock
 
 # titletoc
@@ -294,8 +294,8 @@ _.md5
 
 # vhistory
 
-_.hst
-_.ver
+*.hst
+*.ver
 
 # easy-todo
 
@@ -315,13 +315,13 @@ _.ver
 
 # xypic precompiled matrices and outlines
 
-_.xyc
-_.xyd
+*.xyc
+*.xyd
 
 # endfloat
 
-_.ttt
-_.fff
+*.ttt
+*.fff
 
 # Latexian
 
@@ -331,8 +331,8 @@ TSWLatexianTemp\*
 
 # WinEdt
 
-_.bak
-_.sav
+*.bak
+*.sav
 
 # Texpad
 
@@ -352,7 +352,7 @@ _.sav
 
 # KBibTeX
 
-_~[0-9]_
+*~[0-9]*
 
 # TeXnicCenter
 
