@@ -11,7 +11,7 @@
 % use fontawesome
 \RequirePackage{fontawesome}
 % use xcolor for customizing color
-\RequirePackage[usenames,dvipsnames]{xcolor}
+\RequirePackage[dvipsnames]{xcolor}
 % loading fonts
 \RequirePackage{fontspec}
 % Main document font
@@ -42,12 +42,15 @@
 \setlist[enumerate]{topsep=0.25em, leftmargin=1.5pc}
 \RequirePackage[super]{nth}
 
+% custom section rulecolor
+\providecolor{sectionrulecolor}{RGB}{100, 149, 237} % 默认颜色
+
 \titleformat{\section}         % Customise the \section command 
   {\Large\scshape\raggedright} % Make the \section headers large (\Large),
                                % small capitals (\scshape) and left aligned (\raggedright)
   {}{0em}                      % Can be used to give a prefix to all sections, like 'Section ...'
   {}                           % Can be used to insert code before the heading
-  [\titlerule]                 % Inserts a horizontal line after the heading
+  [{\color{sectionrulecolor}\hrule height 1.5pt}]                 % Inserts a horizontal line after the heading
 \titlespacing*{\section}{0cm}{*1}{*1}
 
 \titleformat{\subsection}
